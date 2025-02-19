@@ -39,12 +39,27 @@ public final class Constants
     public static final double WHEEL_LOCK_TIME = 10; // seconds
   }
 
+  public static final class ElevatorConstants {
+    public static final int ELEVATOR_MOTOR_RIGHT_ID = 3;
+    public static final int ELEVATOR_MOTOR_LEFT_ID = 52;
+  }
+
+  public static final class IntakeConstants {
+    public static final int INTAKE_MOTOR_RIGHT_ID = 7;
+    public static final int INTAKE_MOTOR_LEFT_ID = 51;
+  }
+
+  public static final class WristConstants {
+    public static final int WRIST_MOTOR_ID = 18;
+  }
+
   public static class OperatorConstants
   {
 
     // Joystick Deadband
     public static final double DEADBAND        = 0.1;
     public static final double LEFT_Y_DEADBAND = 0.1;
+    public static final double LEFT_X_DEADBAND = 0.1;
     public static final double RIGHT_X_DEADBAND = 0.1;
     public static final double TURN_CONSTANT    = 6;
   }
